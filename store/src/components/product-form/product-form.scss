@@ -1,0 +1,52 @@
+.product{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        box-shadow: 0px 2px 70px 0px rgba(110, 130, 208, 0.18);
+        padding: 30px;
+        border-radius: 7px;
+        background-color: white;
+    &--form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+     &__title{
+        display: block;
+        margin: 10px 0 5px;
+        
+     }
+     &__lable{
+        display: block;
+        margin: 15px 2px 1px ;
+        font-size: 18px;
+        font-weight: 500;
+
+     }
+     &__input{
+        width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #6b6b6b3d;
+            border-radius: 5px;
+     }
+    &__description {
+        width: 100%;
+        min-height: 100px; /* Set minimum height */
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: none; /* Allow vertical resize by user */
+        overflow: auto;
+  
+    }
+
+    }
+
+}
+
+
+  
